@@ -1,0 +1,55 @@
+@import "../App.scss";
+
+.home {
+  .shopBtn {
+    @include btn;
+  }
+
+  .hero {
+    background: $hero-bg;
+
+    .content {
+      padding-top: 45px;
+
+      h2 {
+        color: $primary-color;
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 20px 0px;
+      }
+
+      p {
+        color: #111;
+        line-height: 28px;
+
+        &:nth-child(1) {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .timerCount {
+    background: $primary-color;
+    height: 300px;
+
+    .storeBtn {
+      background: #fff;
+      font-weight: 600;
+
+      a {
+        color: $primary-color;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+
+    img {
+      height: 70% !important;
+      width: 70% !important;
+      object-fit: contain;
+    }
+  }
+}

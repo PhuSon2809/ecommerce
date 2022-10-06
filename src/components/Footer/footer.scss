@@ -1,0 +1,49 @@
+@import "../../App.scss";
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background: $primary-color;
+
+  .footerText {
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.735);
+  }
+
+  .quickLink {
+    .quickLinkTitle {
+      margin-bottom: 30px;
+      color: #fff;
+      font-size: 1.1rem;
+    }
+
+    ul {
+      li {
+        background: transparent !important;
+        a {
+          color: rgba(255, 255, 255, 0.735);
+        }
+      }
+    }
+  }
+
+  .contact {
+    li {
+      color: #fff;
+      p {
+        color: rgba(255, 255, 255, 0.735);
+        font-size: 0.9rem;
+      }
+      span {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .copyright {
+    color: rgba(255, 255, 255, 0.735);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
